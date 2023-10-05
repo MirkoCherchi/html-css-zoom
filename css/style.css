@@ -72,4 +72,17 @@ footer{
    height: 80px; 
    background-color: green;
 }
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+
+}
+
+
+
+
+
 /* /footer */
