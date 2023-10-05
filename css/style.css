@@ -69,18 +69,44 @@ img{
 /* footer */
 
 footer{
-   height: 80px; 
-   background-color: green;
+   height: 80px;
+   background-color: black;
+   color: white;
 }
 
 .container-footer{
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    
+    align-items: center;
+    height: 100%;
+}
+
+.fa-solid{ 
+    color: white;
+    font-size: 25px;
+    padding: 7px;
+}
+
+.scritta{
+    font-size: 14px;
 
 }
 
+.icon-up{
+    margin-left: 10px;
+    display: flex;
+    
+}
+
+span{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 
 
