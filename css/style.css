@@ -6,6 +6,10 @@
 
 /* common */
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* header */
 header{
     background-color: yellow;
@@ -24,13 +28,48 @@ header{
     margin-top: 5px;
     color: white;
 }
-
-
-
 /* /header */
 
+
 /* main */
+
+.container-main{
+    background-color: red;
+    height: calc(100vh - 155px);
+    overflow: auto;
+}
+
+.container-foto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+img{
+    width: calc((1750px - 10px) / 7);
+    margin-bottom: 15px;  
+}
+
+.foto{
+    position: relative;
+}
+
+.audio{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    bottom: 19px;
+    color: white;
+    padding: 5px;
+}
+
 /* /main */
 
 /* footer */
+
+footer{
+   height: 80px; 
+   background-color: green;
+}
 /* /footer */
