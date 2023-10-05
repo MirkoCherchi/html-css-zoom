@@ -12,7 +12,7 @@ body{
 
 /* header */
 header{
-    background-color: yellow;
+    background-color: black;
     height: 75px;
 }
 .container{
@@ -34,7 +34,7 @@ header{
 /* main */
 
 .container-main{
-    background-color: red;
+    background-color: black;
     height: calc(100vh - 155px);
     overflow: auto;
 }
@@ -70,7 +70,7 @@ img{
 
 footer{
    height: 80px;
-   background-color: black;
+   background-color: #222222;
    color: white;
 }
 
@@ -83,7 +83,7 @@ footer{
 
 
 
-.fa-solid, .fa-brands{ 
+.up > .fa-solid, .fa-brands{ 
     color: white;
     font-size: 25px;
     padding: 7px;
@@ -114,9 +114,19 @@ span{
     color: green;
 }
 
+.bottone{
+    height: 100%;
+    text-align: center;
+    
+}
 
-
-
-
+button{
+    height: 100%;
+    background-color: #4a4a4a;
+    padding: 20px;
+    color: red;
+    font-size: 18px;
+    border: 0;
+}
 
 /* /footer */
