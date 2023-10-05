@@ -11,6 +11,21 @@ header{
     background-color: yellow;
     height: 75px;
 }
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vista-intera, .icon{
+    background-color: #4a4a4a;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+
 
 /* /header */
 
