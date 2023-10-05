@@ -81,32 +81,40 @@ footer{
     height: 100%;
 }
 
-.fa-solid{ 
+
+
+.fa-solid, .fa-brands{ 
     color: white;
     font-size: 25px;
     padding: 7px;
 }
 
 .scritta{
-    font-size: 14px;
+    font-size: 13px;
 
 }
 
 .icon-up{
-    margin-left: 10px;
     display: flex;
     
 }
 
 span{
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .up{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-left: 15px;
 }
+
+#verde{
+    color: green;
+}
+
+
 
 
 
