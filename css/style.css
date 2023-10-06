@@ -36,7 +36,7 @@ header{
 .container-main{
     background-color: black;
     height: calc(100vh - 155px);
-    overflow: auto;
+    overflow-y: auto;
 }
 
 .container-foto{
@@ -44,11 +44,12 @@ header{
     flex-wrap: wrap;
     gap: 5px;
     justify-content: center;
+    background-color: black;
 }
 
 img{
-    width: calc((1750px - 10px) / 7);
-    margin-bottom: 15px;  
+    margin-bottom: 5px; 
+    border-radius: 5px;
 }
 
 .foto{
@@ -59,7 +60,7 @@ img{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
     left: 0;
-    bottom: 19px;
+    bottom: 9px;
     color: white;
     padding: 5px;
 }
@@ -117,8 +118,6 @@ span{
 .bottone{
     height: 100%;
     text-align: center;
-    
-    
 }
 
 button{
