@@ -118,6 +118,7 @@ span{
     height: 100%;
     text-align: center;
     
+    
 }
 
 button{
@@ -127,6 +128,7 @@ button{
     color: red;
     font-size: 18px;
     border: 0;
+    cursor: pointer;
 }
 
 /* /footer */
