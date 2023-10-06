@@ -112,7 +112,7 @@ span{
 }
 
 #verde{
-    color: green;
+    color: #4bc800;
 }
 
 .bottone{
@@ -124,10 +124,15 @@ button{
     height: 100%;
     background-color: #4a4a4a;
     padding: 20px;
-    color: red;
+    color: #ff0000;
     font-size: 18px;
     border: 0;
     cursor: pointer;
+    display: inline-block;
+}
+
+button:active{
+    background-color: #4bc800;
 }
 
 /* /footer */
